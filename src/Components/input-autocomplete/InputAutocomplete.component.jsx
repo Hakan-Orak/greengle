@@ -41,6 +41,7 @@ const InputAutocomplete = () => {
     return (
         <React.Fragment>
             <Autocomplete
+                style={{margin: "auto"}}
                 value={value}
                 onChange={(event, newValue) => {
                     if (typeof newValue === 'string') {

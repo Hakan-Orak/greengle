@@ -19,13 +19,7 @@ const Accueil = () => {
                 height={500}
                 width={500}
             />
-            <div style={{
-                display: "block",
-                marginLeft: "auto",
-                marginRight: "auto"
-            }}>
                 <InputAutocomplete/>
-            </div>
         </>
     )
 }

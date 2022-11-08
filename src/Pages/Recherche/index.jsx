@@ -1,0 +1,1 @@
+export {default as Recherche} from './Recherche.container';

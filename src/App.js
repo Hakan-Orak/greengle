@@ -9,15 +9,10 @@ import {useState} from 'react';
 function App() {
     return (
         <div className="App">
-            <SearchContext.Provider value={{
-                title: 'hola bola',
-                year: 2022
-            }}>
                 <Routes>
                     <Route index element={<Accueil/>}/>
                     <Route path="/recherche" element={<Recherche/>}/>
                 </Routes>
-            </SearchContext.Provider>
         </div>
     );
 }
